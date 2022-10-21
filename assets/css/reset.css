@@ -1,0 +1,11 @@
+:root {
+  --background-header: #ffffff;
+  --background-main: #f9f9f9;
+  --background-rectangle1: #ffffff;
+  --background-rectangle1-border: #cccccc;
+  --background-rectangle2: #f8f8f8;
+  --background-rectangle2-border: #cccccc;
+}
+* {
+  margin: 0;
+}

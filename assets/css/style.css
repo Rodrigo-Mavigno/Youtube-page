@@ -1,0 +1,141 @@
+.container {
+  width: 1440px;
+  height: 1024px;
+  padding: 0px 24px;
+  
+
+  background-color: yellow;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 24px;
+  gap: 32px;
+
+  position: absolute;
+  width: 1440px;
+  height: 56px;
+  left: 0px;
+  top: 0px;
+  
+  background-color: var(--background-header);
+}
+.video1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  position: absolute;
+  width: 952px;
+  height: 537px;
+  left: 75px;
+  top: 84px;
+}
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  position: absolute;
+  width: 160px;
+  height: 938px;
+  left: 1052px;
+  top: 84px;
+}
+.sidebar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 24px;
+  gap: 32px;
+
+  position: absolute;
+  width: 1440px;
+  height: 56px;
+  left: 0px;
+  top: 0px;
+}
+.logo {
+  position: absolute;
+  width: 90px;
+  height: 20px;
+  left: 80px;
+  top: 18px;  
+}
+.search {
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.search .rectangle1 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 348px;
+  height: 40px;
+  left: 526px;
+  top: 8px;
+  background: var(--background-rectangle1);
+  border: 1px solid var(--background-rectangle1-border);  
+}
+.search .rectangle2 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 57px;
+  height: 40px;
+  left: 873px;
+  top: 8px;
+  background: var(--background-rectangle2);
+  border: 1px solid var(--background-rectangle2-border);
+}
+.search .lupa {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 887px;
+  top: 16px;
+}
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  width: 130px;
+  height: 34px;
+}
+.right .creator {
+  
+  width: 24px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.right .notificator {
+  width: 24px;
+  height: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.right .avatar {
+  
+  width: 34px;
+  height: 34px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+

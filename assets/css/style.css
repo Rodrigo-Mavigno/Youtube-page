@@ -73,9 +73,7 @@
 .right .creator {
   width: 24px;
   height: 24px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  margin-bottom: 5px;
 }
 .right .notificator {
   width: 24px;
@@ -202,6 +200,10 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 16px;
+  color: var(--color-dio);
+}
+.inscritos a {
+  text-decoration: none;
   color: var(--color-dio);
 }
 .inscritos .number {

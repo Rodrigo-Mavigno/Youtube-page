@@ -5,6 +5,13 @@
   --background-rectangle1-border: #cccccc;
   --background-rectangle2: #f8f8f8;
   --background-rectangle2-border: #cccccc;
+  --color-title: #000000;
+  --color-views-channelname: #515151;
+  --color-title1: #000000;
+  --color-inscritos-number: #515151; 
+  --color-views1: #000000;
+  --color-description: #515151;
+  --color-dio: #000000;
 }
 * {
   margin: 0;
